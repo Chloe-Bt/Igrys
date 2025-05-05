@@ -14,7 +14,7 @@ data:extend{
         enabled = settings.startup["igrys-enable-all"].value,
         allow_productivity = true,
         energy_required = 3,
-        recipe_category = "electronics-or-assembling",
+        recipe_category = "electronics",
         allow_as_intermediate = false,
         auto_recycle = false
     }, {
