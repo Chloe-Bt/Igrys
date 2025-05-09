@@ -12,6 +12,7 @@ data:extend{
         results = {{type="item", name="electronic-circuit", amount=2}},
         icons = MadeFromIcons(data.raw["item"]["electronic-circuit"].icon, "__Igrys__/Assets/Items/glass.png"),
         enabled = settings.startup["igrys-enable-all"].value,
+        category = "electronics-or-assembling",
         allow_productivity = true,
         energy_required = 3,
         recipe_category = "electronics",
